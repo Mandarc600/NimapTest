@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mandar Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MachineTesting(failed)">
+    <parameter name="Add" value="Karve Nagar, Pune, Maharashtra 411052, India"/>
+    <parameter name="password" value="12345678"/>
+    <parameter name="CustName" value="Vikas Naybal"/>
+    <parameter name="ConperName" value="Mandar Choudhari"/>
+    <parameter name="Email" value="vikas9923@gmail.com"/>
+    <parameter name="RefNo" value="18"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="MoNo" value="9923542318"/>
+    <parameter name="ConPerDes" value="Tester"/>
+    <parameter name="url" value="https://testffc.nimapinfotech.com/auth/login"/>
+    <parameter name="username" value="mandarc89@gmail.com"/>
+    <classes>
+      <class name="MachinT.LoginTest">
+        <methods>
+          <include name="AddU"/>
+          <include name="AddUser" invocation-numbers="0"/>
+          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="Popup"/>
+        </methods>
+      </class> <!-- MachinT.LoginTest -->
+    </classes>
+  </test> <!-- MachineTesting(failed) -->
+</suite> <!-- Failed suite [Mandar Test Automation Suite] -->

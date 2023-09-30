@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mandar Test Automation Suite">
+  
+
+<test name="MachineTesting">
+
+<parameter name = "browser" value= "chrome"/>
+<parameter name = "url" value= "https://testffc.nimapinfotech.com/auth/login"/>
+<parameter name = "username" value= "mandarc600@gmail.com"/>
+<parameter name = "password" value= "12345678"/>
+<parameter name = "CustName" value= "Vikas Naybal"/>
+<parameter name = "RefNo" value= "18"/>
+<parameter name = "ConperName" value= "Mandar Choudhari"/>
+<parameter name = "MoNo" value= "9923542318"/>
+<parameter name = "Email" value= "vikas9923@gmail.com"/>
+<parameter name = "ConPerDes" value= "Tester"/>
+<parameter name = "Add" value= "Karve Nagar, Pune, Maharashtra 411052, India"/>
+<classes>
+<class name="MachinT.LoginTest"></class>
+</classes>
+</test>
+</suite> <!-- Suite -->
